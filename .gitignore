@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.devspace/
+*.log
+.DS_Store
+
+# Keep the public repository small: only curated release evidence is tracked.
+evidence/*
+!evidence/REVIEW.md
+!evidence/SUMMARY.json
+
+!evidence/release/
+evidence/release/*
+!evidence/release/01-title.png
+!evidence/release/02-village.png
+!evidence/release/05-north-forest.png
+!evidence/release/08-boss-combat.png
+!evidence/release/09-victory.png
+
+!evidence/art/
+evidence/art/*
+!evidence/art/hero-front-4x.png
+!evidence/art/guardian-front-4x.png

@@ -1,0 +1,26 @@
+{
+  "name": "lastlight-valley",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "test": "node --experimental-strip-types --test tests/simulation.test.ts",
+    "verify:browser": "node scripts/playtest.mjs",
+    "verify:performance": "node scripts/performance.mjs",
+    "verify:motion": "node scripts/motion.mjs",
+    "verify:release": "node scripts/release-check.mjs",
+    "assets": "node scripts/export-assets.mjs"
+  },
+  "dependencies": { "three": "0.186.1" },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.1",
+    "playwright": "1.58.2"
+  },
+  "engines": { "node": ">=22.12.0" }
+}

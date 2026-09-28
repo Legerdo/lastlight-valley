@@ -1,0 +1,255 @@
+{
+  "generatedAt": "2026-09-28T21:25:07.029Z",
+  "title": "잔광의 계곡",
+  "build": {
+    "date": "2026-09-28T21:21:13.581Z",
+    "node": "v24.13.0",
+    "platform": "win32",
+    "results": [
+      {
+        "command": "npm run test",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run build",
+        "exitCode": 0
+      }
+    ],
+    "hashes": {
+      "src/art.ts": "fb4a5b83e864ec4204a2a2275fbdd78b7c255a1785f37ce8861cd72adcc9e386",
+      "src/world.ts": "a7fafd5ebe2dee75e49b7cd96d4ceee15c01112addbb5114ca944d025e45ca96",
+      "src/simulation.ts": "586470c4de287e32a7cd97d1c1f4b685b577f7037c65e9abba903808fe7854f4",
+      "src/render.ts": "873b3c0a8bc4fae086d032b2d9a3e73524da836218f7039037c6e06660dd0348",
+      "src/main.ts": "9ca5856c094e9429b53c521b585cf15ab51a38cf19b3ea9bc48144d22e31dbea",
+      "src/ui.ts": "e047ee122c27ab0c6ba8630a5a785043309c13e8810e0c30337dcc577bee8386",
+      "src/style.css": "665c886d697fdebdbbe5f2d316c89e56adba217783506c85b451bc6f56ca04d7",
+      "src/audio.ts": "0a77e6ae906be18f17069bba816652660c13f057a5ea114e263b8fe2fc7e6873",
+      "package-lock.json": "d919b32cf9cd46fb04b456b5fac4e5e03ba1b57549b79f713798d5e2242bc086"
+    }
+  },
+  "functional": {
+    "outcome": "passed",
+    "failure": "",
+    "errors": [],
+    "browser": "153.0.8010.54",
+    "checkpoints": [
+      {
+        "name": "guide",
+        "phase": "play",
+        "elapsed": 1.949999999999998,
+        "wallSeconds": 4.93,
+        "hp": 120,
+        "kills": 0,
+        "dodges": 0
+      },
+      {
+        "name": "south-cleared",
+        "phase": "play",
+        "elapsed": 35.64999999999926,
+        "wallSeconds": 38.623,
+        "hp": 120,
+        "kills": 4,
+        "dodges": 13
+      },
+      {
+        "name": "south-lit",
+        "phase": "play",
+        "elapsed": 38.26666666666578,
+        "wallSeconds": 41.237,
+        "hp": 120,
+        "kills": 4,
+        "dodges": 13
+      },
+      {
+        "name": "north-cleared",
+        "phase": "play",
+        "elapsed": 91.31666666666277,
+        "wallSeconds": 94.292,
+        "hp": 120,
+        "kills": 11,
+        "dodges": 35
+      },
+      {
+        "name": "north-lit",
+        "phase": "play",
+        "elapsed": 92.64999999999603,
+        "wallSeconds": 95.625,
+        "hp": 120,
+        "kills": 11,
+        "dodges": 35
+      },
+      {
+        "name": "guardian-defeated",
+        "phase": "play",
+        "elapsed": 152.30000000001334,
+        "wallSeconds": 158.089,
+        "hp": 51,
+        "kills": 12,
+        "dodges": 48
+      },
+      {
+        "name": "victory",
+        "phase": "victory",
+        "elapsed": 154.88333333334873,
+        "wallSeconds": 164.684,
+        "hp": 51,
+        "kills": 12,
+        "dodges": 48
+      },
+      {
+        "name": "victory-restart",
+        "phase": "play",
+        "elapsed": 0.35,
+        "wallSeconds": 167.24,
+        "hp": 120,
+        "kills": 0,
+        "dodges": 0
+      },
+      {
+        "name": "death",
+        "phase": "dead",
+        "elapsed": 25.833333333333147,
+        "wallSeconds": 194.223,
+        "hp": 0,
+        "kills": 0,
+        "dodges": 0
+      },
+      {
+        "name": "death-restart",
+        "phase": "play",
+        "elapsed": 0.36666666666666664,
+        "wallSeconds": 196.736,
+        "hp": 120,
+        "kills": 0,
+        "dodges": 0
+      }
+    ],
+    "victoryGameSeconds": 154.88333333334873,
+    "victoryWallSeconds": 164.684
+  },
+  "motion": {
+    "failure": null,
+    "errors": [],
+    "checks": {
+      "effectsOff": true,
+      "mute": "true",
+      "pauseFreezesPlayer": true,
+      "resume": true
+    },
+    "frames": 41,
+    "video": "evidence/motion/motion.webm"
+  },
+  "art": [
+    {
+      "kind": "hero",
+      "size": 72,
+      "anchor": {
+        "x": 36,
+        "y": 59
+      },
+      "frames": 140,
+      "clipped": 0,
+      "empty": 0
+    },
+    {
+      "kind": "guide",
+      "size": 72,
+      "anchor": {
+        "x": 36,
+        "y": 59
+      },
+      "frames": 140,
+      "clipped": 0,
+      "empty": 0
+    },
+    {
+      "kind": "wolf",
+      "size": 72,
+      "anchor": {
+        "x": 36,
+        "y": 59
+      },
+      "frames": 140,
+      "clipped": 0,
+      "empty": 0
+    },
+    {
+      "kind": "wraith",
+      "size": 72,
+      "anchor": {
+        "x": 36,
+        "y": 59
+      },
+      "frames": 140,
+      "clipped": 0,
+      "empty": 0
+    },
+    {
+      "kind": "guardian",
+      "size": 96,
+      "anchor": {
+        "x": 48,
+        "y": 85
+      },
+      "frames": 140,
+      "clipped": 0,
+      "empty": 0
+    }
+  ],
+  "performance": {
+    "averageFPS": 119.75708987275185,
+    "p95FrameMs": 8.400000000023283,
+    "samples": 3597,
+    "drawCalls": 293,
+    "triangles": 4681,
+    "drawingBuffer": {
+      "width": 960,
+      "height": 540
+    },
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "dpr": 1,
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5080 (0x00002C02) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "effects": true,
+    "shadowMap": "2048 PCFSoft",
+    "spriteFilter": "nearest / nearest",
+    "terrainFilter": "nearest / nearest-mipmap-linear",
+    "sourcePixelsPerUnit": 28,
+    "durationSeconds": 30.057,
+    "combatPhase": "play",
+    "bossHp": 216,
+    "recordingVideo": false
+  },
+  "environment": {
+    "gpu": [
+      {
+        "Name": "AMD Radeon(TM) Graphics",
+        "DriverVersion": "32.0.21043.19003"
+      },
+      {
+        "Name": "NVIDIA GeForce RTX 5080",
+        "DriverVersion": "32.0.16.1692"
+      }
+    ],
+    "os": {
+      "Caption": "Microsoft Windows 11 Pro",
+      "Version": "10.0.26300",
+      "BuildNumber": "26300"
+    },
+    "ram": 33440972800,
+    "cpu": {
+      "Name": "AMD Ryzen 7 9800X3D 8-Core Processor           ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16
+    }
+  },
+  "limitations": [
+    "Normal-input automated shortest-route time is not a first-time human playtime study; 5–8 minute target remains unverified.",
+    "Audio implementation and mute state checked, but no human listening test.",
+    "Motion review is limited to captured directions, actions and occlusion routes; no claim of exhaustive coverage."
+  ]
+}
